@@ -3,7 +3,7 @@
     {
       name: "deploy-basic",
 
-      script: "serve",
+      script: "npx",
 
       interpreter: "none",
 
