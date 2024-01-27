@@ -3,11 +3,11 @@
     {
       "name": "deploy-basic",
 
-      "script": "npx",
+      "script": "serve",
 
       "interpreter": "none",
 
-      "args": "npx -s build -p 3000"
+      "args": "serve -s build -p 3000"
     }
   ]
 }
