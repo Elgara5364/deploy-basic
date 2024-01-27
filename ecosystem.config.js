@@ -1,16 +1,16 @@
 {
-  "apps": [
+  "apps"[
     {
-      "name": "deploy-basic",
+      name: "deploy-basic",
 
-      "script": "serve",
+      script: "serve",
 
-      "interpreter": "none",
+      interpreter: "none",
 
-      "args": "serve -s build -p 3000",
-      "env": {
-        "NODE_ENV": "production"
-      }
+      args: "serve -s build -p 3000",
+      env: {
+        NODE_ENV: "production",
+      },
     }
-  ]
+  ];
 }
