@@ -1,16 +1,9 @@
-{
+module.exports = {
   apps: [
     {
-      name: "deploy-basicr",
-
+      name: "deploy-basic",
       script: "node_modules/next/dist/bin/next",
-
-      interpreter: "none",
-
-      args: "start -s build -p 3001",
-      env: {
-        NODE_ENV: "development",
-      },
+      args: "start -s build -p 3020",
     },
-  ];
-}
+  ],
+};
