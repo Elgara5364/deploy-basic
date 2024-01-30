@@ -3,7 +3,7 @@
     {
       name: "deploy-basicr",
 
-      script: "/src/app/page.js",
+      script: "serve",
 
       interpreter: "none",
 
