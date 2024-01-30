@@ -7,7 +7,7 @@
 
       interpreter: "none",
 
-      args: "start -s build -p 3020",
+      args: "start -s build -p 3001",
       env: {
         NODE_ENV: "development",
       },
