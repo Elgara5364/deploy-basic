@@ -3,11 +3,11 @@
     {
       name: "deploy-basicr",
 
-      script: "serve",
+      script: "node_modules/next/dist/bin/next",
 
       interpreter: "none",
 
-      args: "serve -s build -p 3000",
+      args: "start -s build -p 3020",
       env: {
         NODE_ENV: "development",
       },

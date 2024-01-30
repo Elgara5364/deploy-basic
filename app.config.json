@@ -3,11 +3,11 @@
     {
       "name": "deploy-basic",
 
-      "script": "serve",
+      "script": "node_modules/next/dist/bin/next",
 
       "interpreter": "none",
 
-      "args": "serve -s build -p 3020",
+      "args": "start -s build -p 3020",
       " env": {
         "NODE_ENV": "development"
       }
