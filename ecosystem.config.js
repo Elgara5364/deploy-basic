@@ -3,7 +3,7 @@
     {
       name: "deploy-basicr",
 
-      script: "npx",
+      script: "src/app/page.js",
 
       interpreter: "none",
 
