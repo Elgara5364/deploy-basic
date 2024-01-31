@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "deploy-basic",
       script: "node_modules/next/dist/bin/next",
-      args: "start -s build  ",
+      args: "start   ",
     },
   ],
 };
